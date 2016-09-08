@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dig</title>
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main">
+        <div id="actions">
+            <a id="dig" href="#">Dig</a>
+            <a id="toggle_inventory" href="#" class="hidden">View inventory</a>
+        </div>
+        <div id="resources">
+            <!--It would be nice with a pre defined order of resources.
+            And what about a second list of "rare" resources? Or what about a rarity property?
+            What about properties overall on resources?-->
+            <table></table>
+            <div id="craft"></div>
+        </div>
+        <div id="log"></div>
+
+        <div id="inventory">
+        </div>
+        <!--Hidden from start-->
+    </div>
+    <a id="save" href="#">Save</a>
+    <a id="about" href="#">About</a>
+    <script src="js/actions.js"></script>
+    <script src="js/craft.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/craftables.js"></script>
+    <script src="js/logger.js"></script>
+    <script src="js/upgrades.js"></script>
+    <script src="js/items.js"></script>
+    <script src="js/inventory.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

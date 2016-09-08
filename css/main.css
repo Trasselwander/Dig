@@ -1,0 +1,108 @@
+﻿body {
+  padding: 0;
+  margin: 0;
+  font-family: Courier; }
+
+.main {
+  padding: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html, .main {
+  height: 100%; }
+
+a {
+  color: #06F; }
+  a:visited, a:hover {
+    color: #06F; }
+  a:active {
+    color: #3d88f8; }
+
+#resources {
+  float: right; }
+  #resources table {
+    min-width: 200px; }
+  #resources a {
+    color: #06F;
+    display: block;
+    margin-bottom: 4px; }
+    #resources a:visited, #resources a:hover {
+      color: #06F; }
+    #resources a:active {
+      color: #3d88f8; }
+
+#craft {
+  margin: auto;
+  width: 200px; }
+  #craft a {
+    color: #D00;
+    display: block; }
+    #craft a:visited, #craft a:hover {
+      color: #D00; }
+    #craft a:active {
+      color: #f56a6a; }
+
+#actions {
+  float: left;
+  min-width: 200px; }
+  #actions a {
+    display: block;
+    margin-bottom: 4px; }
+    #actions a .inactive {
+      color: black; }
+
+#save {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: black; }
+  #save:hover {
+    opacity: 0.7; }
+  #save:active {
+    opacity: 0.55; }
+
+#about {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: black; }
+  #about:hover {
+    opacity: 0.7; }
+  #about:active {
+    opacity: 0.55; }
+  #about .active {
+    color: #de5e13; }
+
+#log {
+  margin: 0 250px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-height: 100%;
+  overflow-y: auto; }
+  #log span.count {
+    float: right;
+    margin-right: 10px; }
+
+#inventory {
+  margin: 0 250px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-height: 100%;
+  overflow-y: auto; }
+  #inventory a {
+    color: black;
+    text-decoration: none; }
+    #inventory a span {
+      text-decoration: underline;
+      color: #06F; }
+
+.hidden {
+  display: none !important; }
+
